@@ -2,8 +2,8 @@ package org.hh.part2.task2.version0;
 
 public class InfiniteSequence {
 
-    public int findSequence(int sequence) {
+    public long findSequence(String A) {
         //TODO
-        return 0;
+        return -1L;
     }
 }
