@@ -3,6 +3,7 @@ package org.hh.part2.task2;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+
 import org.hh.part2.task2.version0.InfiniteSequence;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -22,8 +23,8 @@ public class InfiniteSequenceTest {
 
     @Parameterized.Parameters
     public static Collection<Object[]> testData() {
-        return Arrays.asList(new Object[] { "6789", 6 },
-            new Object[] { "111", 12 });
+        return Arrays.asList(new Object[]{"6789", 6},
+                new Object[]{"111", 12});
     }
 
     private String seq;
