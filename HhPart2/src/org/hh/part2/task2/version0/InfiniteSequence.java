@@ -11,7 +11,7 @@ public class InfiniteSequence {
         }
     }
 
-    /** Only for max_lenght_sequence({@link Integer#MAX_VALUE} - 2) */
+    /** A lot of memory is needed. Only for max_lenght_sequence({@link Integer#MAX_VALUE} - 2) */
     public static class SimpleSequence implements Sequence {
 
         private StringBuilder builder = new StringBuilder();
